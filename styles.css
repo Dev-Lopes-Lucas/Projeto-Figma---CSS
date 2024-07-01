@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: oswald;
+}
+
+.home-mom{
+    width: 1440px;
+    height: 900;
+                                background-color: white;
+}
+.home-information{
+    width: 480px;
+    height: 600px;
+    
+    position: absolute;
+    top: 300px;
+    left: 180px;
+
+
+}
+h1{
+    font-weight: 400;
+    color: #5D5D7D ;
+    opacity: 0,6;
+    font-style: bold;
+
+}
+
+p{
+    line-height: 30px;
+    font-weight: 400;
+    color: #5D5D7D ;
+    opacity: 0,6;
+}
+
+.home-button{
+    margin-top: 30px;
+    background-color: #9499EA;
+    color: white;
+    width: 269px;
+    height: 62px;
+    border-radius:50px ;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+.home-grey {
+    width: 491px;
+    height: 901px; 
+    position: absolute;
+    top: 0px;
+    left: 949px;
+    background-color: #5D5D7D;
+    opacity: 0.16;
+}
+  
+.header-all{
+    
+    width: 491px; 
+    position: absolute;
+    top: 0px;
+    left: 949px;
+    color: #5D5D7D ;
+    opacity: 0,6;
+}
+   
+.link-header{
+    margin-left: 45px;
+    font-size: 28px;
+    font-weight: 400;
+    cursor: pointer;
+  
+    
+    
+}
+
+
+
+.home-img{
+    width: 456px;
+    height: 900px;
+    position: relative;
+    left: 800px;
+    top: 150px;
+
+}
+
+
+/* RESPONSIVIDADE PARA TABLET*/
+
+@media (min-width: 10px;){ 
+    div {
+
+        background: aqua;
+        width: 375px;
+        height: 406px;
+
+    }
+
+}
+    
+
